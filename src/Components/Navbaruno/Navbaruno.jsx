@@ -1,9 +1,14 @@
 import React, { useState } from 'react';
 import BurguerButton from './BurguerButton.jsx';
 import './Navbaruno.css';
+import { useAuth0 } from '@auth0/auth0-react';
+
 
 
 function Navbaruno() {
+
+  const{loginWithRedirect} = useAuth0();
+
 
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
@@ -37,7 +42,7 @@ function Navbaruno() {
   </div>
   
         <div className="sesion">
-          <a href="#"><i class="bi bi-door-open"></i> Hola, Iniciar Sesion</a>
+          <button className='loginauth' onClick={()=>loginWithRedirect()}> <i class="bi bi-door-open"></i> Hola, Iniciar Sesion</button>
         <a href=""><i class="bi bi-bag-fill"></i>Carrito</a>
           
  
