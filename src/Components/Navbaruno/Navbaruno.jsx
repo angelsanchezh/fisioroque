@@ -34,18 +34,22 @@ function Navbaruno() {
         </div>
         </div>
         
+        
+      
+        <div className="sesion">
+        <button className='loginauth' onClick={()=>loginWithRedirect()}> <i class="bi bi-door-open"></i> Hola, Iniciar Sesion</button>
+        <a href=""><i class="bi bi-bag-fill"></i>Carrito</a>
+          
+ 
+
         <div className="container-fluid">
     <form className="d-flex" role="search">
-      <input className="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search"/>
+      <input className="form-control me-3" type="search" placeholder="Busqueda" aria-label="Search"/>
       <button className="btn btn-outline-light" type="submit">Search</button>
     </form>
   </div>
   
-        <div className="sesion">
-          <button className='loginauth' onClick={()=>loginWithRedirect()}> <i class="bi bi-door-open"></i> Hola, Iniciar Sesion</button>
-        <a href=""><i class="bi bi-bag-fill"></i>Carrito</a>
-          
- 
+       
         </div>
 
 
