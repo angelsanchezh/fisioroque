@@ -16,6 +16,8 @@ function App() {
   const { isAuthenticated } = useAuth0();
 
   return (
+    
+
     <div className="App">
      {isAuthenticated ? (
           <>
@@ -25,7 +27,7 @@ function App() {
           ) :
            ( <Navbaruno/>)}
     
-      <Cover />
+       <Cover />
       <Nosotros/>
       <Slider />
       <Testimonios/>
@@ -33,6 +35,7 @@ function App() {
       <Footer />
      
     </div>
+    
   );
 }
 
