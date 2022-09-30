@@ -17,15 +17,8 @@ root.render(
    clientId='fZsH3pGqaDERPOPL2QAmqJwoxfF4oWEE' 
    redirectUri={window.location.origin} 
   >
-  <BrowserRouter>
-  <Routes>
-   <Router path='/' element= { <App/>} />
-   
-     </Routes>
-</BrowserRouter>
-   
-
-
+  <App/>
+  
    </Auth0Provider>
    
  
