@@ -20,6 +20,26 @@ align-items: center;
 
 }
 
+.btn-success{
+    color: aqua;
+transition: all 0.4s ease-in-out;
+}
+
+.container-portada{
+
+    color: white;
+   
+    
+}
+.container-portada >h1{
+    color: white;
+    font-size: 30px;
+    
+}
+.container-portada >p{
+    font-size: 15px;
+
+}
 .audio{
 
     width: 200px;

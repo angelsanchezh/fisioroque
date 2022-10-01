@@ -7,8 +7,9 @@ import { useAuth0 } from '@auth0/auth0-react';
 
 function Navbaruno() {
 
+  //login Auth0
   const{loginWithRedirect} = useAuth0();
-
+//Fin login Auth0 
 
   const [clicked, setClicked] = useState(false)
   const handleClick = () => {
