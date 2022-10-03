@@ -1,8 +1,16 @@
-import React from 'react'
+import React from 'react';
+import {LogoutButton} from '../Components/Botonauth/Logout';
+import  {Profile}  from '../Components/Botonauth/Profile';
 
 const Paginalogout = () => {
   return (
-    <div>Paginalogout</div>
+    <div>
+Desde aqui se debe desloggear
+
+    <LogoutButton/>
+<Profile/>
+
+    </div>
   )
 }
 
