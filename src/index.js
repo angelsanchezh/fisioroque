@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { Auth0Provider} from '@auth0/auth0-react';
-import App from './App';
+import Rutas from './Routes/Rutas';
+
 
 
 
@@ -16,7 +17,7 @@ root.render(
    clientId='fZsH3pGqaDERPOPL2QAmqJwoxfF4oWEE' 
    redirectUri={window.location.origin} 
   >
-  <App/>
+  <Rutas/>
 
    </Auth0Provider>
    

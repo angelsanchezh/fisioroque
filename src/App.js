@@ -33,7 +33,6 @@ function App() {
       <Testimonios/>
       <Info />
       <Footer />
-     
     </div>
     
   );
