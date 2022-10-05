@@ -22,9 +22,7 @@ const Footer = () => {
 
           <div className="footer-sns">
 
-            <a href="https://twitter.com/" target="_blank" rel='noreferrer'>
-              <i className="bi bi-twitter"></i>
-            </a>
+            
             <a href="https://www.linkedin.com/" target="_blank" rel='noreferrer'>
               <i className="bi bi-linkedin"></i>
             </a>
