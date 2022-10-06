@@ -2,7 +2,7 @@
 height: 100vh;
 width: 100%;
 object-fit: contain;
-box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+box-shadow: inset 0 0 0 1000px rgba(30, 193, 228,0.1);
 display: flex;
 flex-direction: column;
 justify-content: center;
