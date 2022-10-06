@@ -13,10 +13,9 @@ const Cover = () => {
 <h1>Fisio-Roque</h1>
 <p>Terapia Fisica | Terapia Respiratoria | Terapia de Rehabilitacion </p>
 
-<button>
-Reserva tu cita
-</button>
-<audio className='audio' src={audiohtml} autoPlay controls loop />
+<button className="btn btn-outline-primary" type="submit">SEPARA TU CITA</button>
+
+
     </div>
   )
 }

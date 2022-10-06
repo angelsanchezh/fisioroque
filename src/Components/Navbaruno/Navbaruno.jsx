@@ -20,8 +20,10 @@ function Navbaruno() {
       <nav className='NavContainer'>
 
 <div className="logotipo">
-        <i class="bi bi-fire"></i>
-        <a href="#">Fisio-Roque</a>
+      
+        <img src="https://ca.aceaperu.com/wp-content/uploads/2022/10/logoblanco.png"
+                    alt="Logo del grupo illapu"></img>
+        
         </div>
         
         <div className="botones">
@@ -62,7 +64,7 @@ function Navbaruno() {
    
   )
 }
-
+// mensaje de prueba
 export default Navbaruno;
 
 
