@@ -4,12 +4,13 @@ import './App.css';
 import Cover from './Components/cover/Cover';
 import Navbaruno from './Components/Navbaruno/Navbaruno';
 import Nosotros from './Components/Nosotros/Nosotros'
-import Slider from './Components/Slider/Slider';
+import Ofrecemos from './Components/Slider/Ofrecemos';
 import Info from './Components/Info/Info';
 import Footer from './Components/Footer/Footer';
 import Testimonios from './Components/Testimonios/testimonios';
 import { LogoutButton } from './Components/Botonauth/Logout';
 import { Profile } from './Components/Botonauth/Profile';
+import Contact from './Components/Correo/Contact';
 
 function App() {
 
@@ -29,8 +30,8 @@ function App() {
     
        <Cover />
       <Nosotros/>
-      <Slider />
-      <Testimonios/>
+      <Ofrecemos />
+      <Contact/>
       <Info />
       <Footer />
     </div>

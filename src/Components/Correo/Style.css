@@ -1,0 +1,23 @@
+.fondo {
+  background: rgb(28, 190, 228);
+  background: linear-gradient(
+    90deg,
+    rgba(28, 190, 228, 1) 0%,
+    rgba(32, 212, 217, 1) 49%,
+    rgba(36, 237, 204, 1) 100%
+  );
+  color: white;
+  padding: 10px;
+}
+
+.forms {
+  margin: 25px;
+  border-radius: 15px;
+}
+.forms2 {
+  margin: 5px;
+}
+
+.botones {
+  margin-right: 10px;
+}
