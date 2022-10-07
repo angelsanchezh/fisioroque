@@ -11,6 +11,7 @@ import Testimonios from './Components/Testimonios/testimonios';
 import { LogoutButton } from './Components/Botonauth/Logout';
 import { Profile } from './Components/Botonauth/Profile';
 import Contact from './Components/Correo/Contact';
+import Slider from './Components/Sliderdos/Slider';
 
 function App() {
 
@@ -32,7 +33,9 @@ function App() {
       <Nosotros/>
       <Ofrecemos />
       <Contact/>
+      <Slider/>
       <Info />
+      
       <Footer />
     </div>
     
