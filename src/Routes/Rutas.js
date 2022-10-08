@@ -3,6 +3,7 @@ import { BrowserRouter,Routes,Route,  } from 'react-router-dom';
 import App from '../App';
 import Paginalogout from '../Pages/Paginalogout';
 import Nosotros from '../Components/Nosotros/Nosotros';
+import HomePage from '../Pages/HomePage';
 
 
 const Rutas = () => {
@@ -12,7 +13,7 @@ const Rutas = () => {
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/Logout" element={<Paginalogout />} />
         <Route  path="/QuienesSomos" element={< Nosotros/>} />
       </Routes>
