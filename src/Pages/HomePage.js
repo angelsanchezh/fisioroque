@@ -9,6 +9,7 @@ import { LogoutButton } from '../Components/Botonauth/Logout';
 import { Profile } from '../Components/Botonauth/Profile';
 import Contact from '../Components/Correo/Contact';
 import Slider from '../Components/Sliderdos/Slider';
+import Personal from '../Components/Personal/Personal';
 
 function HomePage() {
 
@@ -29,6 +30,7 @@ function HomePage() {
        <Cover />
       <Nosotros/>
       <Ofrecemos />
+      <Personal/>
       <Contact/>
       <Slider/>
       <Info />

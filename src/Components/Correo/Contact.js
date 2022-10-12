@@ -35,7 +35,6 @@ export const Contact = () => {
                                     type="text"
                                     placeholder="Juan Perez"
                                     name="name"
-                                    autoFocus
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" >
@@ -44,7 +43,6 @@ export const Contact = () => {
                                     type="email"
                                     placeholder="juan@correo.com"
                                     name="user_email"
-                                    autoFocus
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" >
@@ -53,7 +51,6 @@ export const Contact = () => {
                                     type="number"
                                     placeholder="999 999 999"
                                     name="number"
-                                    autoFocus
                                 />
                             </Form.Group>
                             <Form.Group
