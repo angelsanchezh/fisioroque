@@ -15,24 +15,27 @@ const Personal = () => {
             <div className='personal-title'>
                 <h2>Nuestro Personal</h2>
             </div>
-            <div style={{marginTop:20}}>
-                <Row xs={1} sm={2} md={4} className="g-5">
+            <div>
+                <Row xs={1} md={2} lg={4} className="g-5">
                     {ofrece.length > 0 &&
                         ofrece.map((index) =>
                             <Col>
-                                <Card className='personal-cards' border="light">
+                                <Card className='personal-cards' >
                                     <Card.Body>
-                                        <Card.Img variant="top" src={index.image} />
+                                        <Card.Img className='personal-image' variant="top" src={index.image} />
                                         <Card.Title >
                                             <h3 className='personal-cards-title'>{index.title}</h3>
                                         </Card.Title>
                                         <Card.Title >
-                                            <h4 className='personal-cards-text'>{index.profession}</h4>
+                                            <h4 className='personal-cards-subtitle'>{index.profession}</h4>
                                         </Card.Title>
                                         <Card.Text className='personal-cards-text'>
                                             <h5 className='personal-cards-text'>{index.quote}</h5>
                                         </Card.Text>
                                     </Card.Body>
+                                    <Card.Footer>
+                                        <small className="text-muted">Lun. a Sab. 10am a 3pm</small>
+                                    </Card.Footer>
                                 </Card>
                             </Col>
                         )}

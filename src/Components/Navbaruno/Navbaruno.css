@@ -7,7 +7,9 @@ background-color: rgba(red, green, blue, alpha);
   position: fixed;
   z-index: 1;
 }
-
+#navbar.bg-active {
+  background: #181d23;
+}
 a{
   text-decoration: none;
   color: white;

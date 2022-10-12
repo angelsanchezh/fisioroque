@@ -2,7 +2,7 @@ const personal = [
     {
       id: 1,
       image: "https://i.postimg.cc/Gt0rND77/Druno.jpg",
-      title: "Lic. Francisco Vega",
+      title: "Lic. Oscar Gomez",
       profession: "Osteopata",
       quote:
         "Personal con mas de 6 años de experiencia, especialista en rehabilitación de huesos fracturados",
