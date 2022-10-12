@@ -10,7 +10,9 @@ export const Contact = () => {
 
         emailjs.sendForm('service_sh28tq3','template_2nbu6dc', e.target, 'bv50f2e0NaexsD4CR').then(res=>{
             console.log(res);
+            document.getElementById("create-email-form").reset();
         }).catch(err=>console.log(err));
+
     }
 
     return (
@@ -28,14 +30,13 @@ export const Contact = () => {
                         <div className=" h4  border-white border-bottom border-top d-flex justify-content-evenly border-2">
                             RESERVE SU CITA
                         </div>
-                        <Form className='p-3' onSubmit={sendEmail}>
+                        <Form className='p-3' onSubmit={sendEmail} id="create-email-form">
                             <Form.Group className="mb-3" >
                                 <Form.Label>Nombres y Apellidos</Form.Label>
                                 <Form.Control
                                     type="text"
                                     placeholder="Juan Perez"
                                     name="name"
-                                    autoFocus
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" >
@@ -44,7 +45,6 @@ export const Contact = () => {
                                     type="email"
                                     placeholder="juan@correo.com"
                                     name="user_email"
-                                    autoFocus
                                 />
                             </Form.Group>
                             <Form.Group className="mb-3" >
@@ -53,7 +53,6 @@ export const Contact = () => {
                                     type="number"
                                     placeholder="999 999 999"
                                     name="number"
-                                    autoFocus
                                 />
                             </Form.Group>
                             <Form.Group

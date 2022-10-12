@@ -29,7 +29,7 @@ const people = [
     name: "Sofia Peñares",
     title: "Via: Facebook",
     quote:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "La atención es buenísima, 100% recomendado. ¡Que sigan los exitos!",
   },
 ];
 

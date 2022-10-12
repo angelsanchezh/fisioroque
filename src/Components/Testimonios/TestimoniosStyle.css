@@ -1,5 +1,30 @@
-.bg-color{
-    background-color: white;
+.personal-container {
+  display: flex;
+  vertical-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px;
+  overflow: hidden;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.personal-testimonio {
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding-top: 2rem;
+  width: 80vw;
+  height: 350px;
+  max-width: 800px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  background-color: #FFFFFF;
+}
+
+.bg-color {
+  background-color: white;
 }
 h1,
 h2,
@@ -12,44 +37,16 @@ h4 {
   color: #ffffff;
   align-items: center;
 }
-.section {
-  width: 100%;
-  height: 35vh;
-  margin: 1rem auto;
-  max-width: 1170px;
-  background-color: white;
 
-}
 .section-center {
   width: 100%;
   height: 35vh;
- 
-
 }
 
 @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
   }
-}
-/**
-.icon {
-  font-size: 3rem;
-  color: hsl(21, 62%, 45%);
-}
-**/
-.section-center {
-  margin: 0 auto;
-  margin-top: 1rem;
-  padding-top: 2rem;
-  width: 80vw;
-  height: 350px;
-  max-width: 800px;
-  text-align: center;
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  background-color: #ffffff;
 }
 
 article {
@@ -61,7 +58,6 @@ article {
   height: 100%;
   opacity: 0;
   transition: all 0.3s linear;
-  
 }
 
 article.activeSlide {
@@ -81,7 +77,7 @@ article.nextSlide {
   width: 150px;
   height: 150px;
   object-fit: cover;
-  border: 4px solid hsl(23, 7%, 39%);
+  border: 4px solid #44d89e;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
@@ -113,6 +109,7 @@ article h4 {
   margin-top: 2rem;
   line-height: 2;
   color: hsl(210, 22%, 49%);
+  font-size: calc(10px + 2vmin);
 }
 
 .prev,
@@ -120,7 +117,7 @@ article h4 {
   position: absolute;
   top: 200px;
   transform: translateY(-50%);
-  background: hsl(22, 7%, 22%);
+  background: #44d89e;
   color: #fff;
   width: 1.25rem;
   height: 1.25rem;
@@ -134,7 +131,7 @@ article h4 {
 }
 .prev:hover,
 .next:hover {
-  background: hsl(22, 7%, 22%);
+  background: rgba(28, 190, 228, 1);
 }
 .prev {
   left: 0;

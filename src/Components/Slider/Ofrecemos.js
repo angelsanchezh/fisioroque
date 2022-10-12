@@ -11,7 +11,7 @@ const Ofrecemos = () => {
 
 
     return (
-        <div className='carousel-container'>
+        <div className='carousel-container2'>
             <div className='carousel-title'>
                 <h2>Nosotros Ofrecemos</h2>
             </div>

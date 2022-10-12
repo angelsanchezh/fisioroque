@@ -1,4 +1,4 @@
-.carousel-container {
+.carousel-container2 {
   display: flex;
   vertical-align: center;
   align-items: center;
@@ -18,6 +18,8 @@
   font-size: 30px;
   text-align: center;
   font-weight: bold;
+  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
 .images {

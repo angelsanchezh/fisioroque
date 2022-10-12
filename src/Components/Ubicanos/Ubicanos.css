@@ -1,0 +1,37 @@
+.map-section{
+    background-color: #edebeb;
+    padding: 1.5rem 1rem;
+}
+
+.map-container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1024px;
+    margin-bottom: 1rem;
+
+}
+
+.map-title{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:1.5rem;
+    color: #44d89e;
+}
+
+.map-responsive{
+
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}
+
+/* .map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:90%;
+    position: absolute;
+} */
