@@ -11,26 +11,26 @@ const Personal = () => {
 
 
     return (
-        <div className='carousel-container'>
-            <div className='carousel-title'>
-                <h2>Nosotros Ofrecemos</h2>
+        <div className='personal-container'>
+            <div className='personal-title'>
+                <h2>Nuestro Personal</h2>
             </div>
-            <div >
-                <Row xs={1} sm={2} md={4} className="g-4">
+            <div style={{marginTop:20}}>
+                <Row xs={1} sm={2} md={4} className="g-5">
                     {ofrece.length > 0 &&
                         ofrece.map((index) =>
                             <Col>
-                                <Card className='cards' border="light">
+                                <Card className='personal-cards' border="light">
                                     <Card.Body>
                                         <Card.Img variant="top" src={index.image} />
                                         <Card.Title >
-                                            <h4 className='cards-title'>{index.title}</h4>
+                                            <h3 className='personal-cards-title'>{index.title}</h3>
                                         </Card.Title>
                                         <Card.Title >
-                                            <h5 className='cards-title'>{index.profession}</h5>
+                                            <h4 className='personal-cards-text'>{index.profession}</h4>
                                         </Card.Title>
-                                        <Card.Text className='cards-text'>
-                                            <h5 className='cards-text'>{index.quote}</h5>
+                                        <Card.Text className='personal-cards-text'>
+                                            <h5 className='personal-cards-text'>{index.quote}</h5>
                                         </Card.Text>
                                     </Card.Body>
                                 </Card>
