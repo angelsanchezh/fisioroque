@@ -20,7 +20,7 @@ const Ofrecemos = () => {
                     {ofrece.length > 0 &&
                         ofrece.map((index) =>
                             <Col>
-                                <Card className='cards' border="light">
+                                <Card className='cards animacion' border="light">
                                     <Card.Body>
                                         <div className='d-flex justify-content-center'>
                                             <img className='img-fluid images' src={index.image} alt="" />

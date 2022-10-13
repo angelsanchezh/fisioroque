@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { React} from 'react'
-import { Button, Form} from 'react-bootstrap';
+import { React } from 'react'
+import { Button, Form } from 'react-bootstrap';
 import emailjs from 'emailjs-com'
 import './Style.css'
 
@@ -8,10 +8,10 @@ export const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_sh28tq3','template_2nbu6dc', e.target, 'bv50f2e0NaexsD4CR').then(res=>{
+        emailjs.sendForm('service_sh28tq3', 'template_2nbu6dc', e.target, 'bv50f2e0NaexsD4CR').then(res => {
             console.log(res);
             document.getElementById("create-email-form").reset();
-        }).catch(err=>console.log(err));
+        }).catch(err => console.log(err));
 
     }
 
@@ -54,6 +54,16 @@ export const Contact = () => {
                                     placeholder="999 999 999"
                                     name="number"
                                 />
+                            </Form.Group>
+                            <Form.Group className="mb-3" >
+                                <Form.Label>Selecciona el especialista</Form.Label>
+                                <Form.Select aria-label="Default select example" name="doctor">
+                                    <option>Seleccionar</option>
+                                    <option value="Oscar" >Lic. Oscar Gomez</option>
+                                    <option value="Maria">Dra. Maria Castillo</option>
+                                    <option value="Felipe">Lic. Felipe Chirinos</option>
+                                    <option value="Martha">Dra. Martha Perez</option>
+                                </Form.Select>
                             </Form.Group>
                             <Form.Group
                                 className="mb-3"

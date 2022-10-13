@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer">
           <div className="footer-container">
             <div className="footer-info">
-                <h1>Reserva tu cita ON-LINE</h1>
+                <h1>Reserva tu cita en nuestros locales</h1>
             </div>
 
             <div className="footer-detalle">
@@ -99,7 +99,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-col-detail">
-                    <h3 className="footer-col__title">Menu</h3>
+                    <h3 className="footer-col__title">Principal</h3>
 
                     <i className="bi bi-envelope-paper-fill">
                         <a
