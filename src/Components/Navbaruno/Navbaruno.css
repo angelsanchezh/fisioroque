@@ -1,48 +1,63 @@
- .NavContainer{
+.container{
+  display:flex;
+justify-content: center;
   width: 100%;
-  padding: 25px;
-background-color: rgba(red, green, blue, alpha);
+
+
+}
+.container-nav-principal{
   display:grid;
-  grid-template-columns: 1fr 3fr 1fr ;
+  grid-template-columns: 0.8fr 3fr 0.8fr ;
   position: fixed;
-  z-index: 1;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(red, green, blue, alpha);
+  
 }
-#navbar.bg-active {
-  background: #181d23;
+
+.botones{
+display: flex;
+justify-content: center;
+align-items: center;
+  
 }
-a{
+
+  .botones > a{
+  display: inline-flex;
+   padding: 20px;
   text-decoration: none;
   color: white;
-}
-a:hover{
-  color: black;
-transition: all 0.4s ease-in-out;
 
-}
 
-.logotipo{
-display: flex;
-justify-content: left;
-padding: 0 0 0 40px;
 }
 
 .logotipo > a{
-margin: 0 0 0 10px;
-  }
+display: flex;
+padding: 0 0 0 50px;
+text-decoration: none;
+color: white;
+font-weight: 700;
+}
+.bi-fire{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+color: white;
+width: 80%;
+
+}
+
 
 .sesion{
   display: flex;
-flex-direction: column; 
-align-items: center;
-width: 100%;
+  align-items: center;
 font-size: 15px;
-font-weight: 400;
+font-weight: 600;
+width: 100%;
 
 
 }
-.container-fluid{
-  margin-top: 5px;
-}
+
 
 .loginauth{
   background: none;
@@ -57,27 +72,16 @@ color: black;
 }
 
 
-.bi-door-open,
-.bi-bag-fill {
+.bi-door-open
+ {
   margin: 8px;
   
 }
 
-.links{
-  margin-top: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.links > a{
-display:inline flex;
-padding: 0px 0 0 40px;
-}
 
 @media (max-width:990px){
 
-  .NavContainer{
-    background-color: blue;
+  .container-nav-principal{
     display: none;
   }
 
