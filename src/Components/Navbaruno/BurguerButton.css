@@ -2,10 +2,14 @@
 
   display:none;
   background-color: blue;
-
 }
+
+
 .burguerboton{
   display: none;
+}
+.burguerbotonclose{
+  display:none;
 }
 
 @media (max-width: 990px){
@@ -13,14 +17,27 @@
 .botones-burguer{
   display: flex;
   position: absolute;
+  left: 3%;
+  top: 3%;
   flex-direction: column;
 background-color: black;
 color: white;
+border-radius: 8px;
 }
+.botones-burguer > a{
+
+ text-decoration: none;
+ color: white;
+ padding: 5px;
+margin: 5px;
+width: 100%;
+
+}
+
 .burguerboton{
   display: flex;
 position: absolute;
-right: 5%;
+right: 10%;
 top: 2%;
 cursor: pointer;
 size: 40px;
@@ -31,11 +48,13 @@ color: white;
 .burguerbotonclose{
   display: flex;
   position: absolute;
-  right: 5%;
+  right: 10%;
   top: 2%;
   cursor: pointer;
   size: 40px;
   color: white;
 }
+
+
 
 }
