@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/angelsanchezh/fisioroque.git/static/css/main.86d5cce2.css",
-    "main.js": "/angelsanchezh/fisioroque.git/static/js/main.5bba2c93.js",
+    "main.css": "/angelsanchezh/fisioroque.git/static/css/main.29f30bee.css",
+    "main.js": "/angelsanchezh/fisioroque.git/static/js/main.c15a3a03.js",
     "static/media/videodefisioterapia.mp4": "/angelsanchezh/fisioroque.git/static/media/videodefisioterapia.0910b485db297385cd22.mp4",
     "static/media/logocuatro.png": "/angelsanchezh/fisioroque.git/static/media/logocuatro.2d68a18955df33e42b65.png",
     "static/media/audiohtml.mp3": "/angelsanchezh/fisioroque.git/static/media/audiohtml.653c440ed6283bb8c5a8.mp3",
@@ -15,11 +15,11 @@
     "static/media/Drnueve.jpg": "/angelsanchezh/fisioroque.git/static/media/Drnueve.7bd11cc59f94f122d343.jpg",
     "static/media/Drcuatro.jpg": "/angelsanchezh/fisioroque.git/static/media/Drcuatro.8793ecaead27fae04c51.jpg",
     "index.html": "/angelsanchezh/fisioroque.git/index.html",
-    "main.86d5cce2.css.map": "/angelsanchezh/fisioroque.git/static/css/main.86d5cce2.css.map",
-    "main.5bba2c93.js.map": "/angelsanchezh/fisioroque.git/static/js/main.5bba2c93.js.map"
+    "main.29f30bee.css.map": "/angelsanchezh/fisioroque.git/static/css/main.29f30bee.css.map",
+    "main.c15a3a03.js.map": "/angelsanchezh/fisioroque.git/static/js/main.c15a3a03.js.map"
   },
   "entrypoints": [
-    "static/css/main.86d5cce2.css",
-    "static/js/main.5bba2c93.js"
+    "static/css/main.29f30bee.css",
+    "static/js/main.c15a3a03.js"
   ]
 }
