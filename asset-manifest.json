@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/angelsanchezh/fisioroque.git/static/css/main.29f30bee.css",
-    "main.js": "/angelsanchezh/fisioroque.git/static/js/main.c15a3a03.js",
-    "static/media/videodefisioterapia.mp4": "/angelsanchezh/fisioroque.git/static/media/videodefisioterapia.0910b485db297385cd22.mp4",
-    "static/media/logocuatro.png": "/angelsanchezh/fisioroque.git/static/media/logocuatro.2d68a18955df33e42b65.png",
-    "static/media/audiohtml.mp3": "/angelsanchezh/fisioroque.git/static/media/audiohtml.653c440ed6283bb8c5a8.mp3",
-    "static/media/imgfisiocinco.webp": "/angelsanchezh/fisioroque.git/static/media/imgfisiocinco.e0083527df1104c6428d.webp",
-    "static/media/Drocho.jpg": "/angelsanchezh/fisioroque.git/static/media/Drocho.1c8c09506e1cbcdef9e9.jpg",
-    "static/media/Drdos.jpg": "/angelsanchezh/fisioroque.git/static/media/Drdos.a3000a21880ee49000c9.jpg",
-    "static/media/Drsiete.jpg": "/angelsanchezh/fisioroque.git/static/media/Drsiete.8c181e0339d8c04fe30f.jpg",
-    "static/media/Druno.jpg": "/angelsanchezh/fisioroque.git/static/media/Druno.34e8a71ba38a5010faba.jpg",
-    "static/media/Drcinco.jpg": "/angelsanchezh/fisioroque.git/static/media/Drcinco.151ea105d172778d467a.jpg",
-    "static/media/Drseis.jpg": "/angelsanchezh/fisioroque.git/static/media/Drseis.efd70514b8650ac8a380.jpg",
-    "static/media/Drnueve.jpg": "/angelsanchezh/fisioroque.git/static/media/Drnueve.7bd11cc59f94f122d343.jpg",
-    "static/media/Drcuatro.jpg": "/angelsanchezh/fisioroque.git/static/media/Drcuatro.8793ecaead27fae04c51.jpg",
-    "index.html": "/angelsanchezh/fisioroque.git/index.html",
-    "main.29f30bee.css.map": "/angelsanchezh/fisioroque.git/static/css/main.29f30bee.css.map",
-    "main.c15a3a03.js.map": "/angelsanchezh/fisioroque.git/static/js/main.c15a3a03.js.map"
+    "main.css": "/fisioroque/static/css/main.29f30bee.css",
+    "main.js": "/fisioroque/static/js/main.4e578fe2.js",
+    "static/media/videodefisioterapia.mp4": "/fisioroque/static/media/videodefisioterapia.0910b485db297385cd22.mp4",
+    "static/media/logocuatro.png": "/fisioroque/static/media/logocuatro.2d68a18955df33e42b65.png",
+    "static/media/audiohtml.mp3": "/fisioroque/static/media/audiohtml.653c440ed6283bb8c5a8.mp3",
+    "static/media/imgfisiocinco.webp": "/fisioroque/static/media/imgfisiocinco.e0083527df1104c6428d.webp",
+    "static/media/Drocho.jpg": "/fisioroque/static/media/Drocho.1c8c09506e1cbcdef9e9.jpg",
+    "static/media/Drdos.jpg": "/fisioroque/static/media/Drdos.a3000a21880ee49000c9.jpg",
+    "static/media/Drsiete.jpg": "/fisioroque/static/media/Drsiete.8c181e0339d8c04fe30f.jpg",
+    "static/media/Druno.jpg": "/fisioroque/static/media/Druno.34e8a71ba38a5010faba.jpg",
+    "static/media/Drcinco.jpg": "/fisioroque/static/media/Drcinco.151ea105d172778d467a.jpg",
+    "static/media/Drseis.jpg": "/fisioroque/static/media/Drseis.efd70514b8650ac8a380.jpg",
+    "static/media/Drnueve.jpg": "/fisioroque/static/media/Drnueve.7bd11cc59f94f122d343.jpg",
+    "static/media/Drcuatro.jpg": "/fisioroque/static/media/Drcuatro.8793ecaead27fae04c51.jpg",
+    "index.html": "/fisioroque/index.html",
+    "main.29f30bee.css.map": "/fisioroque/static/css/main.29f30bee.css.map",
+    "main.4e578fe2.js.map": "/fisioroque/static/js/main.4e578fe2.js.map"
   },
   "entrypoints": [
     "static/css/main.29f30bee.css",
-    "static/js/main.c15a3a03.js"
+    "static/js/main.4e578fe2.js"
   ]
 }
